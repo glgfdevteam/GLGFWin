@@ -1,0 +1,18 @@
+---
+#   _    _ _       
+#  | |  | (_)      
+#  | |  | |_ _ __
+#  | |/\| | | '_ \| 
+#  \  /\  / | | | |
+#   \/  \/|_|_| |_|
+#
+# Configuration file for GLGFWin by GLGFDev Team
+#
+# Messages:
+mywins: "Bạn Đã Wins {wins}"
+getwins: "{player} có {wins} wins."
+addwin: "Bạn thêm thành công một chiến thắng để {player}s chiến thắng số."
+addwins: "Bạn thêm thành công thắng để {player}s chiến thắng số."
+setwins: "Bạn đặt thành công các chiến thắng của {player}."
+notfound: "Người Chơi {name} không tìm thấy. Có lẽ các cầu thủ đã không bao giờ tham gia trước khi."
+...

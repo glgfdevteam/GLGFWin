@@ -1,0 +1,53 @@
+name: GLGFWin
+version: 1.0.1
+author: Kagiamy
+api:
+- 1.14.0
+- 2.0.0
+main: Kagiamy\GLGFWin\main
+commands:
+    glgfwin:
+        usage: "/glgfwin"
+        description: "View GLGFWin info."
+        permission: glgfwin.cmd
+    addwin:
+        usage: "/addwin <player>"
+        description: "Adds one win to a player."
+        permission: glgfwin.addwin
+    setwins:
+        usage: "/setwins <player> <wins>"
+        description: "Set the wincount of a player."
+        permission: glgfwin.setwins
+    addwins:
+        usage: "/addwins <player> <wins>"
+        description: "Add wins to the current wins of a player."
+        permission: glgfwin.addwins
+    mywins:
+        usage: "/mywins"
+        description: "See how many wins you have got."
+        permission: glgfwin.mywins
+        aliases: [wins]
+    getwins:
+        usage: "/getwins <player>"
+        description: "See how many wins another player has got."
+        permission: glgfwin.getwins
+        aliases: [seewins]
+permissions:
+    glgfwin.cmd:
+        default: op
+        description: "Permission for /glgfwin"
+    glgfwin.addwin:
+        default: op
+        description: "Permission for /addwin"
+    glgfwin.setwins:
+        default: op
+        description: "Permission for /setwins"
+    glgfwin.addwins:
+        default: op
+        description: "Permission for /addwins"
+    glgfwin.mywins:
+        default: true
+        description: "Permission for /mywins"
+    glgfwin.getwins:
+        default: true
+        description: "Permission for /getwins"
